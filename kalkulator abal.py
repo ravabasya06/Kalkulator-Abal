@@ -15,13 +15,11 @@ def ulang():
     else:
         print("Saya tidak mengerti perintah yang diberi")
         
+    perhitungan = input("Lakukan perhitungan lagi? ya / tidak : ")
+    if perhitungan == "ya":
+        ulang()
+    elif perhitungan == "tidak":
+        print("bruh")
+    else:
+        print("Saya tidak mengerti perintah yang diberikan, saya akan mengira anda menjawab tidak.")
 ulang()
-        
-perhitungan = input("Lakukan perhitungan lagi? ya / tidak : ")
-
-if perhitungan == "ya":
-    ulang()
-elif perhitungan == "tidak":
-    print("bruh")
-else:
-    print("Saya tidak mengerti perintah yang diberikan, saya akan mengira anda menjawab tidak.")
